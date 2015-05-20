@@ -56,7 +56,7 @@ Edit these to reflect your home network that the device should be connecting to 
 Next, we need to define your pushbullet access token. You can get yours [here](https://www.pushbullet.com/account). Enter it at the following line, again in the ```pushbullet.ino``` file.
 
 ```c
-#define PUSHBULLET_ACCESS_TOKEN		"blahblahblah"
+#define API_TOKEN		"blahblahblah"
 ```
 
 Lastly, to get it to compile, you'll need to copy the ```library``` folder to your Arduino libraries folder, for OSX this is ```~/Documents/Arduino/libraries```. This has implementation details for the OLED screen and WiFi module. Full credit to Adafruit for these.
